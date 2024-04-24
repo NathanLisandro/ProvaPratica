@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-areas: "header header header" 
+                         "section section section"
+                         "footer footer footer"
+}
+header{
+    grid-area: "header";
+    background-color:  #0074d9;
+}
+section{
+    grid-area: "section";
+
+}
+
+footer{
+    grid-area: "footer";
+    background-color: #333;
+
+}
