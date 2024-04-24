@@ -1,7 +1,7 @@
 async function consultaApiIBGE () {
     const response = await fetch('https://servicodados.ibge.gov.br/api/v1/localidades/estados');
     const dados = await response.json();
-console.log(dados)
+    console.log(dados.data[1].nome)
     let ul = document.getElementById('listaDeEstados');
     for(let i = 0; i < dados.length; i++){
         let li = document.createElement('li');
