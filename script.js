@@ -8,7 +8,7 @@ async function consultaApiIBGE() {
         let a = document.createElement('a')
         li.textContent = dados[i].nome;
         a.appendChild(li)
-        a.href = '/municipios/index.html?estado=' + dados[i].sigla
+        a.href = './municipios/index.html?estado=' + dados[i].sigla
         a.style = 'text-decoration: none;'
         ul.appendChild(a)
     }
