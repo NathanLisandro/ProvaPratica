@@ -10,8 +10,7 @@ ul {
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    list-style: none;
 }
 
 header {
@@ -21,6 +20,7 @@ header {
     height: 10vh;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     background-color: #0074d9;
 }
 
@@ -38,4 +38,7 @@ footer {
 
 #estadoBr {
     margin-top: 15px;
+}
+#listaDeEstados{
+    margin-top: 30px;
 }
